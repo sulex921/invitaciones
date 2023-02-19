@@ -1,0 +1,120 @@
+
+/*style-2*/
+.blackslick .content-slider-with-large-controls .slick-arrow,
+.content-slider-with-large-controls-autoplay .slick-arrow {
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 300;
+    color: #000000;
+    border: 0;
+    margin-top: 150px;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    h1.logo-font.h1perso {
+        font-size: 2rem;
+    }
+}
+
+.bg-perso{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    z-index: 4;
+    /*position: relative;*/
+    overflow: hidden;
+}
+
+.countdown2_style{
+    font-size: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .countdown2_style{
+        font-size: 2rem;
+    }
+}
+
+.comillas{
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .timeline-date-label{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .blogpost{
+        margin-bottom: 50px;
+    }
+
+    .blogpost header{
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .timeline{
+        padding: 0 0;
+        margin-top: 10px;
+    }
+}
+
+.portada_custom{
+    font-family: 'Great Vibes', cursive;
+    font-size: 5rem;
+    text-transform: none;
+}
+
+.lateralRamo1Borrar{
+    position: absolute;
+    z-index: 20;
+    height: 100vh;
+    left: -5rem;
+}
+
+.lateralRamo2Borrar{
+    position: absolute;
+    z-index: 20;
+    height: 100vh;
+    left: -6.5rem;
+}
+
+.lateralRamo{
+    position: fixed;
+    z-index: 20;
+    height: 100vh;
+    left: -5.8rem;
+    top: 0;
+}
+
+.lateralRamo2{
+    position: fixed;
+    z-index: 21;
+    height: 100vh;
+    right: -5.8rem;
+    top: 0;
+}
+
+@media (max-height: 720px) {
+    .lateralRamo{
+        left: -4rem;
+    }
+
+    .lateralRamo2{
+        right: -4rem;
+    }
+}

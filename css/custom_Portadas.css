@@ -151,13 +151,13 @@
 /* FINAL */
 
 .bgFinal {
-    background-image: url("../images/portada.png");
+    background-image: url("../images/lazos.JPG");
     background-position: 30% 50%;
 }
 
 @media only screen and (max-width: 600px) {
     .bgFinal {
-        background-image: url("../images/portada.png");
+        background-image: url("../images/lazos.JPG");
     }
 }
 

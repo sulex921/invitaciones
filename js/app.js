@@ -20,6 +20,7 @@ var app = new Vue({
       if(items[3]){
         this.invitados = items[3].replaceAll("-"," ");
       }
+      history.pushState(null, "", "/Angie&Gerardo");
     },
   },
   mounted () {
